@@ -17,9 +17,8 @@ textarea {
     border-radius: 15px !important;
 }
 
-#contacto,
-#inicio {
-    background-image: url("../imagenes/fondo-contacto.png");
+#contacto, #inicio {
+    background-image: url(../imagenes/fondo-contacto.png);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -28,6 +27,10 @@ textarea {
 nav .active {
     border: 1px solid #E20000;
     border-radius: 20px;
+}
+nav .nav-item {
+    padding: 10px 20px;
+    border: 1px solid transparent;
 }
 
 nav .nav-link {
@@ -106,9 +109,8 @@ footer .fa-linkedin-in {
 #proyectos,
 #sobre-mi {
     background-image: url(../imagenes/fondo-proyectos.png);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #proyectos h2 {
@@ -156,8 +158,7 @@ a.btn.btn-rojo {
     text-decoration: none;
 }
 
-#proyectos footer .fa-github,
-#sobre-mi footer .fa-github {
+#proyectos footer .fa-github , #sobre-mi  footer .fa-github {
     font-size: 30px;
     color: #E20000;
 }
@@ -174,12 +175,14 @@ a.btn.btn-rojo {
 
     #contacto,
     #inicio {
-        background-image: url("../imagenes/fondo-proyectos.png")
+        background-image: url("../imagenes/fondo-contacto.png");
+        background-attachment: fixed;
+        background-position: right;
     }
 
     #inicio .input-home p {
-        /*color: #E20000;
-        border: 1px solid #E20000;*/
+        /* color: #E20000;
+        border: 1px solid #E20000; */
         font-weight: 500;
     }
 
@@ -195,64 +198,6 @@ a.btn.btn-rojo {
 
 }
 
-.portfolio img {
-    border-radius: 50%;
-    width: 300px;
-    border: 10px solid white;
-}
-
-
-
-.stack-tecnologico img {
-    width: 60px;
-}
-
-.stack-tecnologico h3 {
-    font-size: 14px;
-    color: #282828;
-    font-weight: 300;
-}
-
-.stack-tecnologico h2 {
-    color: white;
-}
-
-
-#sobre-mi .card {
-    height: 182px;
-}
-
-.apache img {
-    width: 110px !important;
-}
-
-.experiencia-laboral img,
-#formacion img,
-#educacion img {
-    filter: grayscale(100%);
-}
-
-.experiencia-laboral img:hover,
-#formacion img:hover,
-#educacion img:hover {
-    filter: grayscale(0%);
-}
-
-.icono-whatsapp {
-    width: 150px;
-}
-
-.idiomas a {
-    text-decoration: none;
-    color: black;
-}
-
-@media (max-width : 768px) {
-    #inicio {
-        background-position: right;
-    }
-}
- 
 @media (min-width : 996px) {
     #inicio footer .container.redes-sociales {
         position: absolute;
@@ -262,10 +207,55 @@ a.btn.btn-rojo {
         transform: translate(-50%, 0);
     }
 }
- 
+
 @media (max-width : 576px) {
     .p-1 {
         padding: .5rem!important;
         margin: 10px 30px;
     }    
 }
+
+/*  FIN -- Media querys  */
+
+.portfolio img {
+    border-radius: 50%;
+    width: 300px;
+    border: 10px solid white;
+}
+
+
+
+.stack-tecnologico img {width: 60px;}
+
+.stack-tecnologico h3 {
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
+
+.stack-tecnologico h2 {color: white;}
+
+
+#sobre-mi .card {
+    height: 182px;
+}
+
+.apache img {width: 110px !important;
+}
+
+.experiencia-laboral img , #formacion img , #educacion img {
+     filter: grayscale(100%);
+}
+
+.experiencia-laboral img:hover , #formacion img:hover , #educacion img:hover  {
+filter: grayscale(0%);
+}
+
+.icono-whatsapp  {
+    width: 150px;
+}
+
+.idiomas a{
+    text-decoration: none;
+    color: black;
+} 

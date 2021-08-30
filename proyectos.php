@@ -64,7 +64,7 @@ $pg = "proyectos";
             <div class="col-sm-4 col-12 p-sm-4 px-4 py-2">
                 <div class="row card">
                     <div class="col-12 p-0">
-                        <img src="imagenes/abmventas.png" alt="" class="img-fluid">
+                        <img src="./imagenes/abmventas.png" alt="" class="img-fluid">
                     </div>
                     <div class="col-12 color-rojo py-3">
                         <h2>SISTEMA DE GESTIÓN DE VENTAS</h2>
@@ -86,7 +86,7 @@ $pg = "proyectos";
             <div class="col-sm-4 col-12 p-sm-4 px-4 py-2">
                 <div class="row card">
                     <div class="col-12 p-0">
-                        <img src="imagenes/proyecto-integrador.png" alt="" class="img-fluid">
+                        <img src="./imagenes/proyecto-integrador.png" alt="" class="img-fluid">
                     </div>
                     <div class="col-12 color-rojo py-3">
                         <h2>PROYECTO INTEGRADOR</h2>

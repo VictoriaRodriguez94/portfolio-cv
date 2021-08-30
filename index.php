@@ -29,7 +29,7 @@ $pg = "index";
     <main class="container">
         <div class="row">
             <div class="col-12 mt-4 text-center div-cohete">
-                <a href="proyectos.php"><img src="imagenes/cohete.svg" class="cohete"></a>
+                <a href="proyectos.php"><img src="./imagenes/cohete.svg" class="cohete"></a>
             </div>
         </div>
         <div class="row">

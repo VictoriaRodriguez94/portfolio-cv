@@ -37,7 +37,7 @@ $pg = "contacto";
             <div class="row">
                 <div class="col-12 col-sm-6">
                     <p> Te invito a que te contactes por mensaje privado</p>
-                    <img src="imagenes/descarga.png" alt="whatsapp" class="img-fluid icono-whatsapp" >
+                    <img src="./imagenes/descarga.png" alt="whatsapp" class="img-fluid icono-whatsapp" >
                 </div>
 
                 <div class="col-12 col-sm-6">

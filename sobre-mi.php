@@ -46,7 +46,7 @@ $pg = "sobre-mi";
             </div>
 
             <div class="col-12 col-sm-6 mt-4  portfolio  ">
-                <img src="../portflio-fullstack/imagenes/cv_portfolio.jpg" alt="" class="img-fluid d-block mx-auto  offset-sm-2">
+                <img src="./imagenes/cv_portfolio.jpg" alt="" class="img-fluid d-block mx-auto  offset-sm-2">
             </div>
 
 
@@ -67,7 +67,7 @@ $pg = "sobre-mi";
                 <div class="col-sm-2 col-6 text-center stack">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>Javascript</h3>
-                        <img src="../portflio-fullstack/imagenes/javascript.jpeg" alt="" class="img-fluid d-block mx-auto ">
+                        <img src="./imagenes/javascript.jpeg" alt="" class="img-fluid d-block mx-auto ">
                     </div>
                 </div>
 
@@ -75,14 +75,14 @@ $pg = "sobre-mi";
                 <div class="col-sm-2 col-6 text-center stack">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>Php</h3>
-                        <img src="../portflio-fullstack/imagenes/php.jpg" alt="" class="img-fluid d-block mx-auto">
+                        <img src="./imagenes/php.jpg" alt="" class="img-fluid d-block mx-auto">
                     </div>
                 </div>
 
                 <div class="col-sm-2 col-6 text-center stack">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>HTML5</h3>
-                        <img src="../portflio-fullstack/imagenes/html.png" alt="" class="img-fluid d-block mx-auto">
+                        <img src="./imagenes/html.png" alt="" class="img-fluid d-block mx-auto">
                     </div>
                 </div>
 
@@ -91,7 +91,7 @@ $pg = "sobre-mi";
                 <div class="col-sm-2 col-6 text-center stack">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>React.js</h3>
-                        <img src="../portflio-fullstack/imagenes/react.png" alt="" class="img-fluid d-block mx-auto">
+                        <img src="./imagenes/react.png" alt="" class="img-fluid d-block mx-auto">
                     </div>
                 </div>
 
@@ -101,14 +101,14 @@ $pg = "sobre-mi";
                 <div class="col-sm-2 col-6 text-center  stack">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>jQuery</h3>
-                        <img src="../portflio-fullstack/imagenes/sql.jpg" alt="" class="img-fluid d-block mx-auto">
+                        <img src="./imagenes/sql.jpg" alt="" class="img-fluid d-block mx-auto">
                     </div>
                 </div>
 
                 <div class="col-sm-2 col-6 text-center stack">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>Bootstrap</h3>
-                        <img src="../portflio-fullstack/imagenes/bootstrap.png" alt="" class="img-fluid d-block mx-auto">
+                        <img src="./imagenes/bootstrap.png" alt="" class="img-fluid d-block mx-auto">
                     </div>
                 </div>
 
@@ -122,7 +122,7 @@ $pg = "sobre-mi";
                 <div class="col-sm-2 col-6 text-center stack">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>Laravel</h3>
-                        <img src="../portflio-fullstack/imagenes/laravel.png" alt="" class="img-fluid d-block mx-auto ">
+                        <img src="./imagenes/laravel.png" alt="" class="img-fluid d-block mx-auto ">
                     </div>
                 </div>
 
@@ -130,14 +130,14 @@ $pg = "sobre-mi";
                 <div class="col-sm-2 col-6 text-center stack">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>MySQL</h3>
-                        <img src="../portflio-fullstack/imagenes/mariadb.png" alt="" class="img-fluid d-block mx-auto">
+                        <img src="./imagenes/mariadb.png" alt="" class="img-fluid d-block mx-auto">
                     </div>
                 </div>
 
                 <div class="col-sm-2 col-6 text-center stack">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>CSS</h3>
-                        <img src="../portflio-fullstack/imagenes/css.png" alt="" class="img-fluid d-block mx-auto">
+                        <img src="./imagenes/css.png" alt="" class="img-fluid d-block mx-auto">
                     </div>
                 </div>
 
@@ -146,7 +146,7 @@ $pg = "sobre-mi";
                 <div class="col-sm-2 col-6 text-center stack">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>Git</h3>
-                        <img src="../portflio-fullstack/imagenes/git.png" alt="" class="img-fluid d-block mx-auto">
+                        <img src="./imagenes/git.png" alt="" class="img-fluid d-block mx-auto">
                     </div>
                 </div>
 
@@ -156,14 +156,14 @@ $pg = "sobre-mi";
                 <div class="col-sm-2 col-6 text-center  stack">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>Apache</h3>
-                        <img src="../portflio-fullstack/imagenes/apache.png" alt="" class="img-fluid d-block mx-auto apache">
+                        <img src="./imagenes/apache.png" alt="" class="img-fluid d-block mx-auto apache">
                     </div>
                 </div>
 
                 <div class="col-sm-2 col-6 text-center stack ">
                     <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                         <h3>Mercado Pago</h3>
-                        <img src="../portflio-fullstack/imagenes/mercadopago.jpg" alt="" class="img-fluid d-block mx-auto">
+                        <img src="./imagenes/mercadopago.jpg" alt="" class="img-fluid d-block mx-auto">
                     </div>
                 </div>
 
@@ -193,7 +193,7 @@ $pg = "sobre-mi";
 
                 <div class="row">
                     <div class="col-2 p-5 my-auto d-none d-sm-block experiencia-laboral">
-                        <img src="imagenes/wuala.png" class="img-fluid " title="wuala baw">
+                        <img src="./imagenes/wuala.png" class="img-fluid " title="wuala baw">
                     </div>
                     <div class="col-12- col-sm-10 p-3">
                         <h3>Soporte Prestashop</h3>
@@ -213,7 +213,7 @@ $pg = "sobre-mi";
 
             <div class="row">
                 <div class="col-2 p-5 my-auto d-none d-sm-block experiencia-laboral">
-                    <img src="imagenes/vivienda-verde.png" class="img-fluid baw" title="vivienda-verde ">
+                    <img src="./imagenes/vivienda-verde.png" class="img-fluid baw" title="vivienda-verde ">
                 </div>
                 <div class="col-12- col-sm-10 p-3">
                     <h3>Maquetadora Web</h3>
@@ -241,7 +241,7 @@ $pg = "sobre-mi";
             <div class="col-12 col-sm-6">
                 <div class="row">
                     <div class="col-2 py-3 my-auto d-none d-sm-block">
-                        <img src="imagenes/upc.jpg" class="img-fluid baw" title="upc" width="60">
+                        <img src="./imagenes/upc.jpg" class="img-fluid baw" title="upc" width="60">
                     </div>
                     <div class="col-12- col-sm-10 p-3">
                         <h3>Diseñadora Gráfica y Publicitario</h3>
@@ -254,7 +254,7 @@ $pg = "sobre-mi";
             <div class="col-12 col-sm-6">
                 <div class="row">
                     <div class="col-2 py-3 my-auto d-none d-sm-block">
-                        <img src="imagenes/institucion-escuti.png" class="img-fluid baw" title="">
+                        <img src="./imagenes/institucion-escuti.png" class="img-fluid baw" title="">
                     </div>
                     <div class="col-12- col-sm-10 p-3">
                         <h3>Institucion Escuti</h3>
@@ -279,7 +279,7 @@ $pg = "sobre-mi";
             <div class="col-12 col-sm-6">
                 <div class="row">
                     <div class="col-2 py-3 my-auto d-none d-sm-block">
-                        <img src="imagenes/depc.jpg" class="img-fluid " title="">
+                        <img src="./imagenes/depc.jpg" class="img-fluid " title="">
                     </div>
                     <div class="col-12- col-sm-10 p-3">
                         <h3>DePC Suite</h3>
@@ -292,7 +292,7 @@ $pg = "sobre-mi";
             <div class="col-12 col-sm-6">
                 <div class="row">
                     <div class="col-2 py-3 my-auto d-none d-sm-block">
-                        <img src="imagenes/logo_coderhouse_1_rec5vl.png" class="img-fluid " title="">
+                        <img src="./imagenes/logo_coderhouse_1_rec5vl.png" class="img-fluid " title="">
                     </div>
                     <div class="col-12- col-sm-10 p-3">
                         <h3>Javascript</h3>
@@ -305,7 +305,7 @@ $pg = "sobre-mi";
             <div class="col-12 col-sm-6">
                 <div class="row">
                     <div class="col-2 py-3 my-auto d-none d-sm-block">
-                        <img src="imagenes/logo_coderhouse_1_rec5vl.png" class="img-fluid " title="">
+                        <img src="./imagenes/logo_coderhouse_1_rec5vl.png" class="img-fluid " title="">
                     </div>
                     <div class="col-12- col-sm-10 p-3">
                         <h3> Workshop WordPress</h3>
@@ -318,7 +318,7 @@ $pg = "sobre-mi";
             <div class="col-12 col-sm-6">
                 <div class="row">
                     <div class="col-2 py-3 my-auto d-none d-sm-block">
-                        <img src="imagenes/logo_coderhouse_1_rec5vl.png" class="img-fluid " title="">
+                        <img src="./imagenes/logo_coderhouse_1_rec5vl.png" class="img-fluid " title="">
                     </div>
                     <div class="col-12- col-sm-10 p-3">
                         <h3>Desarrollo web</h3>

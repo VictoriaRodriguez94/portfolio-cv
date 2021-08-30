@@ -20,8 +20,9 @@ textarea {
 #contacto,
 #inicio {
     background-image: url("../imagenes/fondo-contacto.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 nav .active {
@@ -105,8 +106,9 @@ footer .fa-linkedin-in {
 #proyectos,
 #sobre-mi {
     background-image: url(../imagenes/fondo-proyectos.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 #proyectos h2 {
@@ -154,7 +156,8 @@ a.btn.btn-rojo {
     text-decoration: none;
 }
 
-#proyectos footer .fa-github , #sobre-mi  footer .fa-github {
+#proyectos footer .fa-github,
+#sobre-mi footer .fa-github {
     font-size: 30px;
     color: #E20000;
 }
@@ -200,7 +203,9 @@ a.btn.btn-rojo {
 
 
 
-.stack-tecnologico img {width: 60px;}
+.stack-tecnologico img {
+    width: 60px;
+}
 
 .stack-tecnologico h3 {
     font-size: 14px;
@@ -208,28 +213,44 @@ a.btn.btn-rojo {
     font-weight: 300;
 }
 
-.stack-tecnologico h2 {color: white;}
+.stack-tecnologico h2 {
+    color: white;
+}
 
 
 #sobre-mi .card {
     height: 182px;
 }
 
-.apache img {width: 110px !important;
+.apache img {
+    width: 110px !important;
 }
 
-.experiencia-laboral img , #formacion img , #educacion img {
-     filter: grayscale(100%);
+.experiencia-laboral img,
+#formacion img,
+#educacion img {
+    filter: grayscale(100%);
 }
 
-.experiencia-laboral img:hover , #formacion img:hover , #educacion img:hover  {
-filter: grayscale(0%);
+.experiencia-laboral img:hover,
+#formacion img:hover,
+#educacion img:hover {
+    filter: grayscale(0%);
 }
 
-.icono-whatsapp  {
+.icono-whatsapp {
     width: 150px;
 }
 
-.idiomas a{
+.idiomas a {
     text-decoration: none;
-    color: black;} 
+    color: black;
+}
+
+#inicio footer .container.redes-sociales , #contacto footer .container.redes-sociales   {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 0);
+} 

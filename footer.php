@@ -1,4 +1,5 @@
-<footer class="container redes-sociales">
+<footer>
+    <div class="container redes-sociales">
         <div class="row mt-5 pb-3">
             <div class="col-12 col-sm-3 text-center text-sm-start">
                 <a href="https://github.com" target="_blank" title="Github" class="GitHub"><i
@@ -14,6 +15,8 @@
             </div>
         </div>
         <div class="whatsapp">
-            <a href="https://api.whatsapp.com/send?phone=3515129833" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=3515129833" title="Whatsapp"><i
+                    class="fab fa-whatsapp"></i></a>
         </div>
-    </footer>
+    </div>
+</footer>

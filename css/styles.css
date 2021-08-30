@@ -178,8 +178,8 @@ a.btn.btn-rojo {
     }
 
     #inicio .input-home p {
-        color: #E20000;
-        border: 1px solid #E20000;
+        /*color: #E20000;
+        border: 1px solid #E20000;*/
         font-weight: 500;
     }
 
@@ -247,6 +247,12 @@ a.btn.btn-rojo {
     color: black;
 }
 
+@media (max-width : 768px) {
+    #inicio {
+        background-position: right;
+    }
+}
+ 
 @media (min-width : 996px) {
     #inicio footer .container.redes-sociales {
         position: absolute;
@@ -255,4 +261,11 @@ a.btn.btn-rojo {
         right: 50%;
         transform: translate(-50%, 0);
     }
+}
+ 
+@media (max-width : 576px) {
+    .p-1 {
+        padding: .5rem!important;
+        margin: 10px 30px;
+    }    
 }

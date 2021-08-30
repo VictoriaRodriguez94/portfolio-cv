@@ -247,10 +247,12 @@ a.btn.btn-rojo {
     color: black;
 }
 
-#inicio footer .container.redes-sociales , #contacto footer .container.redes-sociales   {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, 0);
-} 
+@media (min-width : 996px) {
+    #inicio footer .container.redes-sociales {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, 0);
+    }
+}
